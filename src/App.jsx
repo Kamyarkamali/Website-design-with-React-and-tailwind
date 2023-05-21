@@ -4,6 +4,7 @@ import './App.css'
 //Components
 import Navbar from './Components/Navbar/Navbar';
 import Hero from './Components/Hero/Hero';
+import Analise from './Components/Analise/Analise';
 
 
 const App = () => {
@@ -11,6 +12,7 @@ const App = () => {
     <div>
         <Navbar/>
         <Hero/>
+        <Analise/>
     </div>
   );
 };
